@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<credentials>
+    <user>openbootcamp</user>
+    <password>s3cr3t</password>
+    <videos provider="vimeo">
+        <video>Primera sessión</video>
+        <video>Segunda sessión</video>
+        <video>Tercera sessión</video>
+    </videos>
+    <tag provider="youtube"/>
+</credentials>

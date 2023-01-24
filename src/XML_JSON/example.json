@@ -1,0 +1,12 @@
+{
+    "creds": 1,
+    "credentials": {
+        "user": "openbootcamp",
+        "pass": "s3cr3t"
+    },
+    "videos": [
+        "Primera sessión",
+        "Segunda sessión",
+        "Tercera sessión"
+    ]
+}
