@@ -14,7 +14,7 @@ public class Vehicle {
 
   /* Constructors */
   public Vehicle() {
-    System.out.println("Hello from vim");
+    System.out.Println("Hello from vim");
   }
 
   public Vehicle(String company, String modelVehicle, double cc, int year, boolean sport, Motor motor) {
