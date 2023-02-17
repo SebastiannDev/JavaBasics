@@ -2,7 +2,7 @@ package DatosAvanzados;
 
 /*
  * Los arreglos son una coleccion de datos de un tipo
- * tienen la propiedad .lenght para concoer su tamaño
+ * tienen la propiedad .lenght para conocer su tamaño
  * El arreglo debe contener previamente su tamaño si no se ha definido.
  * es posible mutarlos.
  * 
