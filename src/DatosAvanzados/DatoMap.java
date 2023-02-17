@@ -16,6 +16,9 @@ public class DatoMap {
         map.put("clave 1", 12);
         map.put("clave 2", 13);
         map.put("clave 3", 14);
+        map.put("clave 1.5", 8);
+        map.put("clave 1.5", 8);
+        map.put("clave 1.5", 10); // sobre escribe
 
         System.out.println(map);
 
@@ -31,5 +34,14 @@ public class DatoMap {
             System.out.println("La clave del map es: " + element.getKey());
             System.out.println("El elemento del map es: " + element.getValue());
         }
+
+        String originalStr = "Hello";
+        String reversedStr = "";
+
+        for (int i = 0; i < originalStr.length(); i++) {
+            reversedStr = originalStr.charAt(i) + reversedStr;
+        }
+
+        System.out.println("Reversed string: " + reversedStr);
     }
 }

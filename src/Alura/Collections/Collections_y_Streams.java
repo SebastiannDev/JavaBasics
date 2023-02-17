@@ -23,5 +23,9 @@ public class Collections_y_Streams {
         cursos.forEach(curso -> {
             System.out.println("Curso: " + curso);
         });
+
+        System.out.println(cursos.stream().mapToInt(Curso::getTiempo).sum());
+        System.out.println(cursos.stream().mapToDouble(Curso::getTiempo).average().getAsDouble());
+        System.out.println(cursos.stream().mapToDouble(Curso::getTiempo).max().getAsDouble());
     }
 }
